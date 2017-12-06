@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>formularz</title>
+</head>
+
+<body>
+    <form action="https://formspree.io/ula.jurkowska@gmail.com" method="POST">
+
+        Imię: <br>
+        <input type="text" name="firstname"><br> <br> Nazwisko: <br>
+        <input type="text" name="lastname"> <br> <br> E-mail: <br>
+        <input type="email" name="email"> <br> <br> Telefon: <br>
+        <input type="number" name="phone"> <br><br> Miasto: <br>
+        <select name="city">
+    <option value="Krakow">Kraków</option>
+    <option value="Warszawa">Warszawa</option>
+    <option value="Gdansk" selected>Gdańsk</option>
+  </select>
+       <br> <br> Płeć: <br>
+        <input type="radio" name="gender" value="male" checked> Mężczyzna<br>
+        <input type="radio" name="gender" value="female"> Kobieta<br>
+        <input type="radio" name="gender" value="other"> Inna<br><br>
+        
+        <input type="checkbox" name="checkbox" value="checkbox">Zgadzam się
+        <br> <br>
+        Wiadomość: <br> 
+        <textarea name="message" placeholder="wiadomość"></textarea> <br>
+        <br><br>
+        <button type="submit">Wyślij</button>
+
+    </form>
+
+
+
+
+
+
+</body>
+
+</html>
